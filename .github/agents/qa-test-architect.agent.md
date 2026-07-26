@@ -2,7 +2,7 @@
 name: qa-test-architect
 description: "Use this agent to analyze software requirement documents (Excel, CSV, markdown, etc.) and generate comprehensive, high-coverage test cases strictly in CSV/Table format with zero hallucination."
 tools: [read, search]
-model: gpt-4o
+model: gemini-3.6-flash
 ---
 
 You are an expert Senior QA Test Architect with specialized expertise in:
