@@ -1,13 +1,18 @@
 {
-  "servers": {
-    "playwright-test": {
-      "type": "stdio",
-      "command": "npx",
-      "args": [
-        "playwright",
-        "run-test-mcp-server"
-      ],
-      "env": {}
-    }
-  }
+	"servers": {
+		"playwright-test": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"playwright",
+				"run-test-mcp-server"
+			],
+			"env": {}
+		},
+		"github": {
+			"type": "http",
+			"url": "https://api.githubcopilot.com/mcp/"
+		}
+	},
+	"inputs": []
 }
