@@ -1,3 +1,4 @@
 {
-    "chat.byokUtilityModelDefault": "mainAgent"
+    "chat.byokUtilityModelDefault": "mainAgent",
+    "chat.utilitySmallModel": "gemini/models/gemini-3.6-flash"    
 }
